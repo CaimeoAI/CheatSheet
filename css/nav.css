@@ -17,6 +17,8 @@ nav {
     position: fixed;
     padding: 4px;
     width: 100%;
+    border-bottom: 1px solid grey;
+    border-radius: 8px;
 }
 
 li {
@@ -30,7 +32,7 @@ nav ul {
 
 nav li {
     display: block;
-    margin: 8px;
+    margin: 8px 20px;
 }
 
 nav li a {
@@ -48,4 +50,23 @@ main {
     padding: 8%;
 }
 
+.uc {
+    position: relative;
+}
 
+.uc .uctxt {
+    visibility: hidden;
+    width: 200px;
+    background-color: #FFFFFF;
+    color: black;
+    text-align: center;
+    border-radius: 8px;
+    padding: 5px 0px;
+    position: absolute;
+    z-index: 2;
+    top: 20px;
+}
+
+.uc:hover .uctxt {
+    visibility: visible;
+}
