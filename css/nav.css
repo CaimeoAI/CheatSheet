@@ -4,6 +4,10 @@
     background-color: #24292F;
     color: #FFFFFF;
     font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+    
+    border: 1px solid;
+    border-color: greenyellow;
 }
 
 a:link {
@@ -12,9 +16,9 @@ a:link {
 }
 
 nav {
-    padding: 30px;
-    margin-left: 35%;
-    margin-right: 35%;
+    position: fixed;
+    padding: 4px;
+    width: 100%;
 }
 
 li {
@@ -23,11 +27,27 @@ li {
 
 nav ul {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: center;
 }
 
 nav li {
     display: block;
+    margin: 8px;
+}
+
+nav li a {
+    border-radius: 10px;
+    padding: 4px;
+}
+
+nav li a:hover {
+    background-color: #40B3E4;
+    color: black;
+    -webkit-transition: all 0.6s ease-in;
+}
+
+main {
+    margin-top: 5rem;
+    padding-left: 5%;
 }
 
