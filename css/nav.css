@@ -13,15 +13,21 @@ a:link {
 
 nav {
     padding: 30px;
+    margin-left: 35%;
+    margin-right: 35%;
 }
 
 li {
     list-style-type: none;
 }
 
-nav>li {
+nav ul {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
+}
+
+nav li {
+    display: block;
 }
 
