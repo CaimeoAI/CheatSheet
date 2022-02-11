@@ -5,9 +5,7 @@
     color: #FFFFFF;
     font-family: Arial, Helvetica, sans-serif;
     scroll-behavior: smooth;
-    
-    border: 1px solid;
-    border-color: greenyellow;
+    box-sizing: border-box;
 }
 
 a:link {
@@ -43,11 +41,11 @@ nav li a {
 nav li a:hover {
     background-color: #40B3E4;
     color: black;
-    -webkit-transition: all 0.6s ease-in;
+    -webkit-transition: all 0.6s ease;
 }
 
 main {
-    margin-top: 5rem;
-    padding-left: 5%;
+    padding: 8%;
 }
+
 

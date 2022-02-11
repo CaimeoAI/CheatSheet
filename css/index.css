@@ -1,0 +1,24 @@
+section {
+    padding: 10px 15px;
+}
+
+#imgwrap1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+#imgwrap1 img {
+    opacity: 50%;
+    max-width: 500px;
+    height: 300px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+#imgwrap1 img:hover {
+    opacity: 100%;
+    -webkit-transition: all 0.4s ease-in;
+}
