@@ -6,6 +6,14 @@ p {
     margin: 20px 10px;
 }
 
+h1, h2, h3, h4 {
+    text-transform: uppercase;
+}
+
+h1 {
+    text-align: center;
+}
+
 #imgwrap1 {
     display: flex;
     justify-content: center;
