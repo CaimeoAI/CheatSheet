@@ -8,6 +8,8 @@
     box-sizing: border-box;
 }
 
+/* Navigation Bar */
+
 a:link {
     text-decoration: none;
     text-transform: uppercase;
@@ -69,4 +71,30 @@ main {
 
 .uc:hover .uctxt {
     visibility: visible;
+}
+
+/* Body Norming */
+
+section {
+    padding: 10px 15px;
+}
+
+p {
+    margin: 20px 10px;
+}
+
+h1, h2, h3, h4 {
+    text-transform: uppercase;
+}
+
+h1 {
+    text-align: center;
+}
+
+#explanation {
+    margin: 2rem 12rem;
+}
+
+#explanation p {
+    text-align: center;
 }
