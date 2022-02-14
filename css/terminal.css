@@ -20,3 +20,26 @@
 #ls:hover #lstxt {
     visibility: visible;
 }
+
+/* Tooltip for sudo apt */
+
+#apt {
+    position: relative;
+}
+
+#apt #apttxt {
+    visibility: hidden;
+    width: 200px;
+    background-color: #FFFFFF;
+    color: black;
+    text-align: center;
+    border-radius: 8px;
+    padding: 5px 0px;
+    position: absolute;
+    z-index: 2;
+    top: 20px;
+}
+
+#apt:hover #apttxt {
+    visibility: visible;
+}

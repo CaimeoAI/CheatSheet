@@ -78,9 +78,13 @@ h1 {
     text-align: center;
 }
 
+/* Settings for all tables */
+
 table {
-    border: #FFFFFF 1px solid;
+    display: flex;
+    border: #FFFFFF 2px solid;
     border-radius: 10px;
+    width: 30rem;
 }
 
 table td {
