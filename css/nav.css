@@ -52,27 +52,6 @@ main {
     padding: 8%;
 }
 
-.uc {
-    position: relative;
-}
-
-.uc .uctxt {
-    visibility: hidden;
-    width: 200px;
-    background-color: #FFFFFF;
-    color: black;
-    text-align: center;
-    border-radius: 8px;
-    padding: 5px 0px;
-    position: absolute;
-    z-index: 2;
-    top: 20px;
-}
-
-.uc:hover .uctxt {
-    visibility: visible;
-}
-
 /* Body Norming */
 
 section {
@@ -97,4 +76,24 @@ h1 {
 
 #explanation p {
     text-align: center;
+}
+
+table {
+    border: #FFFFFF 1px solid;
+    border-radius: 10px;
+}
+
+table td {
+    padding: 5px;
+    width: 15rem;
+}
+
+td:first-child {
+    font-weight: bold
+}
+
+.placeholder {
+    font-weight: 100;
+    font-style: italic;
+    color: lightblue;
 }
