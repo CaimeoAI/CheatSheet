@@ -29,127 +29,146 @@
       <p>This page contains all the commands for the Ubuntu Terminal we've learned so far.</p>
     </section>
 
-    <section id="basiccmds">
-      <h3>Basic Commands</h3>
-      <div class="tableblock">
-        <table>
-          <tr>
-            <td id="ls">ls
-              <span id="lstxt">
-                <table>
-                  <tr>
-                    <td>-a</td>
-                    <td>Show all (including hidden)</td>
-                  </tr>
-                  <tr>
-                    <td>-R</td>
-                    <td>Recursive list</td>
-                  </tr>
-                  <tr>
-                    <td>-r</td>
-                    <td>Reverse Order</td>
-                  </tr>
-                  <tr>
-                    <td>-t</td>
-                    <td>Sort by last modified</td>
-                  </tr>
-                  <tr>
-                    <td>-S</td>
-                    <td>Sort by file size</td>
-                  </tr>
-                  <tr>
-                    <td>-l</td>
-                    <td>Long listing format</td>
-                  </tr>
-                  <tr>
-                    <td>-1</td>
-                    <td>One file/folder per line</td>
-                  </tr>
-                  <tr>
-                    <td>-m</td>
-                    <td>Comma-seperated list</td>
-                  </tr>
-                  <tr>
-                    <td>-Q</td>
-                    <td>Quoted list</td>
-                  </tr>
-                </table>
-              </span>
-            </td>
-            <td>List files and folders in current directory</td>
-          </tr>
-          <tr>
-            <td>cd</td>
-            <td>Go to home directory</td>
-          </tr>
-          <tr>
-            <td>cd <span class="placeholder">directory</span></td>
-            <td>Go to directory (relative path or absolute path)</td>
-          </tr>
-          <tr>
-            <td>cd ..</td>
-            <td>Go up one directory</td>
-          </tr>
-          <tr>
-            <td>pwd</td>
-            <td>Shows absolute path to current directory</td>
-          </tr>
-          <tr>
-            <td>mkdir <span class="placeholder">name</span></td>
-            <td>Creates folder</td>
-          </tr>
-          <tr>
-            <td>touch <span class="placeholder">name.extension</span></td>
-            <td>Creates file (Specify extension to create specific filetype</td>
-          </tr>
-          <tr>
-            <td>sudo <span class="placeholder">command</span></td>
-            <td>Executes command with root(administrator) permission</td>
-          </tr>
-        </table>
-      </div>
-    </section>
+    <div id="blockroster">
+      <section id="basiccmds" class="cmdblock">
+        <h3>Basic Commands</h3>
+        <div class="tableblock">
+          <table>
+            <tr>
+              <td id="ls">ls
+                <span id="lstxt">
+                  <table>
+                    <tr>
+                      <td>-a</td>
+                      <td>Show all (including hidden)</td>
+                    </tr>
+                    <tr>
+                      <td>-R</td>
+                      <td>Recursive list</td>
+                    </tr>
+                    <tr>
+                      <td>-r</td>
+                      <td>Reverse Order</td>
+                    </tr>
+                    <tr>
+                      <td>-t</td>
+                      <td>Sort by last modified</td>
+                    </tr>
+                    <tr>
+                      <td>-S</td>
+                      <td>Sort by file size</td>
+                    </tr>
+                    <tr>
+                      <td>-l</td>
+                      <td>Long listing format</td>
+                    </tr>
+                    <tr>
+                      <td>-1</td>
+                      <td>One file/folder per line</td>
+                    </tr>
+                    <tr>
+                      <td>-m</td>
+                      <td>Comma-seperated list</td>
+                    </tr>
+                    <tr>
+                      <td>-Q</td>
+                      <td>Quoted list</td>
+                    </tr>
+                  </table>
+                </span>
+              </td>
+              <td>List files and folders in current directory</td>
+            </tr>
+            <tr>
+              <td>cd</td>
+              <td>Go to home directory</td>
+            </tr>
+            <tr>
+              <td>cd <span class="placeholder">directory</span></td>
+              <td>Go to directory (relative path or absolute path)</td>
+            </tr>
+            <tr>
+              <td>cd ..</td>
+              <td>Go up one directory</td>
+            </tr>
+            <tr>
+              <td>pwd</td>
+              <td>Shows absolute path to current directory</td>
+            </tr>
+            <tr>
+              <td>mkdir <span class="placeholder">name</span></td>
+              <td>Creates folder</td>
+            </tr>
+            <tr>
+              <td>touch <span class="placeholder">name.extension</span></td>
+              <td>Creates file (Specify extension to create specific filetype</td>
+            </tr>
+            <tr>
+              <td>sudo <span class="placeholder">command</span></td>
+              <td>Executes command with root(administrator) permission</td>
+            </tr>
+          </table>
+        </div>
+      </section>
 
-    <section id="installation">
-      <h3>Installation</h3>
-      <div class="tableblock">
-        <table>
-          <tr>
-            <td id="apt">sudo apt
-              <span id="apttxt">
-                <table>
-                  <tr>
-                    <td>list</td>
-                    <td>List packages based on package names</td>
-                  </tr>
-                  <tr>
-                    <td>show <span class="placeholder">packagename</span></td>
-                    <td>Show package details</td>
-                  </tr>
-                  <tr>
-                    <td>install <span class="placeholder">packagename</span></td>
-                    <td>Install package globally</td>
-                  </tr>
-                  <tr>
-                    <td>remove <span class="placeholder">packagename</span></td>
-                    <td>Uninstalls package</td>
-                  </tr>
-                </table>
-              </span>
-            </td>
-            <td>See Tooltip for usage</td>
-          </tr>
-          <tr>
-            <td>npm install</td>
-            <td>Installs all dependancies of current directory</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td></td>
-          </tr>
-        </table>
-      </div>
-    </section>
+      <section id="installation" class="cmdblock">
+        <h3>Installation</h3>
+        <div class="tableblock">
+          <table>
+            <tr>
+              <td id="apt">sudo apt
+                <span id="apttxt">
+                  <table>
+                    <tr>
+                      <td>list</td>
+                      <td>List packages based on package names</td>
+                    </tr>
+                    <tr>
+                      <td>show <span class="placeholder">packagename</span></td>
+                      <td>Show package details</td>
+                    </tr>
+                    <tr>
+                      <td>update</td>
+                      <td>Updates system and all packages</td>
+                    </tr>
+                    <tr>
+                      <td>install <span class="placeholder">packagename</span></td>
+                      <td>Install package globally</td>
+                    </tr>
+                    <tr>
+                      <td>remove <span class="placeholder">packagename</span></td>
+                      <td>Uninstalls package</td>
+                    </tr>
+                  </table>
+                </span>
+              </td>
+              <td>See Tooltip for usage</td>
+            </tr>
+            <tr>
+              <td>npm install</td>
+              <td>Installs all dependancies of current directory</td>
+            </tr>
+            <tr>
+              <td>npm install <span class="placeholder">packagename</span></td>
+              <td>Installs package locally in current directory</td>
+            </tr>
+            <tr>
+              <td>npm uninstall <span class="placeholder">packagename</span></td>
+              <td>Uninstalls locally installed package and dependencies in current directory</td>
+            </tr>
+          </table>
+        </div>
+      </section>
+
+      <section id="gitcmds" class="cmdblock">
+        <h3>GitHub Commands</h3>
+        <div class="tableblock">
+          <table>
+
+          </table>
+        </div>
+      </section>
+    </div>
   </main>
 </body>
 
