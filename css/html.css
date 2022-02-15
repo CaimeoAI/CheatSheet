@@ -4,6 +4,7 @@ article {
 }
 
 #htmltags li {
+    color: #569CD6;
     margin: 2.5rem 2rem;
     font-weight: bold;
 }
@@ -29,4 +30,5 @@ article {
 
 #html:hover #htmltagtxt {
     visibility: visible;
+    font-weight: 100;
 }
