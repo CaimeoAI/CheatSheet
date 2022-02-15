@@ -1,3 +1,7 @@
+#htmllink {
+    border: 2px solid white;
+}
+
 article {
     display: flex;
     flex-direction: row;
@@ -13,6 +17,10 @@ article {
 
 #html {
     position: relative;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 #html #htmltagtxt {

@@ -1,3 +1,7 @@
+#indexlink {
+    border: 2px solid white;
+}
+
 #imgwrap1 {
     display: flex;
     justify-content: center;
