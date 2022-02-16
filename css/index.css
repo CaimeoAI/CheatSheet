@@ -23,28 +23,3 @@
     -webkit-transition: all 0.4s ease-in;
 }
 
-.imgtxt {
-    display: flex;
-    flex-direction: row;
-    margin-top: 4rem;
-    justify-content: center;
-}
-
-.imgtxt img {
-    opacity: 50%;
-    max-width: 500px;
-    height: 300px;
-    margin: 25px;
-    border-radius: 15px;
-}
-
-.imgtxt img:hover {
-    opacity: 100%;
-    -webkit-transition: all 0.4s ease-in;
-}
-
-.imgtxt p {
-    padding: 4rem;
-    position: relative;
-    width: 40%;
-}
