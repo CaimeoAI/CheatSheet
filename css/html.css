@@ -5,6 +5,7 @@
 article {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 #htmltags li {
@@ -13,14 +14,14 @@ article {
     font-weight: bold;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 /* Tooltip for html tag */
 
 #html {
     position: relative;
-}
-
-.bold {
-    font-weight: bold;
 }
 
 #html #htmltagtxt {
@@ -37,6 +38,150 @@ article {
 }
 
 #html:hover #htmltagtxt {
+    visibility: visible;
+    font-weight: 100;
+}
+
+/* Tooltip for head tag */
+
+#head {
+    position: relative;
+}
+
+#head #headtagtxt {
+    visibility: hidden;
+    width: 500px;
+    background-color: #FFFFFF;
+    color: black;
+    text-align: center;
+    border-radius: 8px;
+    padding: 5px 0px;
+    position: absolute;
+    z-index: 2;
+    top: 20px;
+}
+
+#head:hover #headtagtxt {
+    visibility: visible;
+    font-weight: 100;
+}
+
+/* Tooltip for body tag */
+
+#body {
+    position: relative;
+}
+
+#body #bodytagtxt {
+    visibility: hidden;
+    width: 500px;
+    background-color: #FFFFFF;
+    color: black;
+    text-align: center;
+    border-radius: 8px;
+    padding: 5px 0px;
+    position: absolute;
+    z-index: 2;
+    top: 20px;
+}
+
+#body:hover #bodytagtxt {
+    visibility: visible;
+    font-weight: 100;
+}
+
+/* Tooltip for header tag */
+
+#header {
+    position: relative;
+}
+
+#header #headertagtxt {
+    visibility: hidden;
+    width: 500px;
+    background-color: #FFFFFF;
+    color: black;
+    text-align: center;
+    border-radius: 8px;
+    padding: 5px 0px;
+    position: absolute;
+    z-index: 2;
+    top: 20px;
+}
+
+#header:hover #headertagtxt {
+    visibility: visible;
+    font-weight: 100;
+}
+
+/* Tooltip for nav tag */
+
+#nav {
+    position: relative;
+}
+
+#nav #navtagtxt {
+    visibility: hidden;
+    width: 500px;
+    background-color: #FFFFFF;
+    color: black;
+    text-align: center;
+    border-radius: 8px;
+    padding: 5px 0px;
+    position: absolute;
+    z-index: 2;
+    top: 20px;
+}
+
+#nav:hover #navtagtxt {
+    visibility: visible;
+    font-weight: 100;
+}
+
+/* Tooltip for article tag */
+
+#article {
+    position: relative;
+}
+
+#article #articletagtxt {
+    visibility: hidden;
+    width: 500px;
+    background-color: #FFFFFF;
+    color: black;
+    text-align: center;
+    border-radius: 8px;
+    padding: 5px 0px;
+    position: absolute;
+    z-index: 2;
+    top: 20px;
+}
+
+#article:hover #articletagtxt {
+    visibility: visible;
+    font-weight: 100;
+}
+
+/* Tooltip for section tag */
+
+#section {
+    position: relative;
+}
+
+#section #sectiontagtxt {
+    visibility: hidden;
+    width: 500px;
+    background-color: #FFFFFF;
+    color: black;
+    text-align: center;
+    border-radius: 8px;
+    padding: 5px 0px;
+    position: absolute;
+    z-index: 2;
+    top: 20px;
+}
+
+#section:hover #sectiontagtxt {
     visibility: visible;
     font-weight: 100;
 }
