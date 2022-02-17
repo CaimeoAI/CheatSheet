@@ -14,8 +14,16 @@ article {
     font-weight: bold;
 }
 
-.bold {
-    font-weight: bold;
+#tagcoll tr td:first-child {
+    color: #569CD6;
+}
+
+#tagcoll table {
+    width: 50rem;
+}
+
+#tagcoll table td {
+    width: 25rem;
 }
 
 /* Tooltip for html tag */

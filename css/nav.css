@@ -8,6 +8,24 @@
     box-sizing: border-box;
 }
 
+/* Span settings */
+
+.bold {
+    font-weight: bold;
+}
+
+.lblue {
+    color: #A2E4FF;
+}
+
+.orange {
+    color: #D09279;
+}
+
+.white {
+    color: #DCDCDC;
+}
+
 /* Navigation Bar */
 
 a:link {
@@ -111,3 +129,4 @@ td:first-child {
     font-style: italic;
     color: lightblue;
 }
+
